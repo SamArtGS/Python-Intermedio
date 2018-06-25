@@ -19,4 +19,4 @@ while True:
 		print("Todo ha funcionado correctamente")
 		break
 	finally: #siempre se ejecuta, si hay excepcion o no
-		print("Fin de la iteracion")	
+		print("Fin de la iteracion")
