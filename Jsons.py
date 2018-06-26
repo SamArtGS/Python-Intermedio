@@ -25,6 +25,7 @@ nuevo_disco = {
 	"Singles": ["Clocks","The Scientist","Green Eyes","Warning Sing","In My Place"]
 }
 
+
 archivo_json = open("discos.json","w")
 informacion_discos.append(nuevo_disco)
 json.dump(informacion_discos,archivo_json)
