@@ -18,12 +18,15 @@ ventana = Tk()
 ventana.title("Pack")
 
 btn1 = Button(ventana,text= "Arriba",bg="coral",fg="white")
-btn1.pack(side
+btn1.pack(side=TOP, fill = X)
 
 btn2 = Button(ventana,text= "Centro",bg="blue",fg="white")
+btn2.pack(side=TOP, expand = NO)
 
 btn3 = Button(ventana,text= "Abajo",bg="red",fg="white")
+btn3.pack(side=TOP)
 
+ventana.mainloop()
 
 
 ventana.mainloop()
